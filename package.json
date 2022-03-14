@@ -1,0 +1,41 @@
+{
+  "name": "@blackwych/typedoc-plugin-customized-default-theme",
+  "version": "0.1.0",
+  "description": "TypeDoc plugin to customize of default theme",
+  "main": "dist/index.js",
+  "exports": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tsc --noEmit && eslint --cache src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "rm -rf dist && npm run lint && npm run build"
+  },
+  "keywords": [
+    "typedoc",
+    "typedocplugin",
+    "typedoc-theme"
+  ],
+  "author": "blackwych",
+  "license": "MIT",
+  "peerDependencies": {
+    "typedoc": "^0.22.8"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^16.1.0",
+    "eslint-plugin-import": "^2.25.4",
+    "typedoc": "^0.22.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackwych/typedoc-plugin-customized-default-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blackwych/typedoc-plugin-customized-default-theme/issues"
+  },
+  "homepage": "https://github.com/blackwych/typedoc-plugin-customized-default-theme#readme"
+}
