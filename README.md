@@ -68,4 +68,25 @@ Supporting customization functions are as follows:
 | `decorateContext`     | `(ctor: typeof DefaultThemeRenderContext) => typeof DefaultThemeRenderContext` | Invoked when creating RenderContext.<br>Useful to customize rendering methods defined in RenderContext.
 
 \*Not all functions are necessary.  
-\*Type definitions are in TypeDoc's source.
+\*Type definitions are in TypeDoc's source code.
+
+
+## Example
+
+This example is exactly why I wanted to create this plugin:
+```JSON
+{
+  "theme": "customized-default",
+  "themeCustomizers": [
+    "@blackwych/typedoc-plugin-categorized-hierarchy-theme",
+    "@blackwych/typedoc-plugin-display-inner-doc-comments-theme",
+  ]
+}
+```
+
+This configuration enables the following two small customizations for the default theme, which support this plugin:
+
+* [@blackwych/typedoc-plugin-categorized-hierarchy-theme](https://www.npmjs.com/package/@blackwych/typedoc-plugin-categorized-hierarchy-theme):
+  Customizes side menus
+* [@blackwych/typedoc-plugin-display-inner-doc-comments-theme](https://www.npmjs.com/package/@blackwych/typedoc-plugin-display-inner-doc-comments-theme):
+  Customizes documentation of complex type
