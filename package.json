@@ -17,8 +17,8 @@
   ],
   "author": "blackwych",
   "license": "MIT",
-  "peerDependencies": {
-    "typedoc": "^0.22.8"
+  "dependencies": {
+    "typedoc": "^0.22.13"
   },
   "devDependencies": {
     "@types/node": "^17.0.21",
@@ -27,8 +27,7 @@
     "eslint": "^8.10.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^16.1.0",
-    "eslint-plugin-import": "^2.25.4",
-    "typedoc": "^0.22.12"
+    "eslint-plugin-import": "^2.25.4"
   },
   "repository": {
     "type": "git",
