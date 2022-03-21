@@ -1,6 +1,6 @@
 {
   "name": "@blackwych/typedoc-plugin-customized-default-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeDoc plugin to customize of default theme",
   "main": "dist/index.js",
   "exports": "dist/index.js",
